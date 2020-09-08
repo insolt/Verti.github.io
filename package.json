@@ -1,14 +1,15 @@
 {
-  "name": "project_verti",
-  "version": "1.0.0",
-  "description": "Resposive web site",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+    "name": "project_verti",
+    "version": "1.0.0",
+    "description": "Resposive web site",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node script/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^4.0.2"
+    }
 }
