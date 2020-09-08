@@ -1,0 +1,19 @@
+@import "node_modules/reset-css/reset.css";
+@import "partials/fonts";
+@import "partials/variables";
+body,
+button {
+    font-family: $basic-font;
+    color: $color-font;
+    font-size: 48px;
+}
+
+.box {
+    &::after {
+        content="";
+        display: block;
+        width: 500px;
+        height: 500px;
+        background: url(../assets/arrow-circle-right-solid.svg);
+    }
+}
