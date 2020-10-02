@@ -6,4 +6,12 @@ button {
   color: #444444;
   font-size: 48px;
 }
+
+.box::after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 500px;
+  background: url(../assets/arrow-circle-right-solid.svg);
+}
 /*# sourceMappingURL=main.css.map */
